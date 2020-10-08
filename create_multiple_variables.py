@@ -27,8 +27,7 @@ workspace = org.get_workspace('workspace-name')
 # Create a variable in a workspace - example for single
 # workspace.create_variable(key='foo', value='bar', sensitive=False, category='terraform')
 
-# Print all variables for a workspace.
-# Variables objects also have functions for updating and deleting.
+# Print items in variables dictionary
 for x, y in variables_dict.items():
   print(x, y) 
 
